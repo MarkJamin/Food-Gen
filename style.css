@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,700,800,900|Jua');
+
+
+body {
+  background-image: linear-gradient(to left bottom, #3399ff, #00bdff, #00d7df, #00e789, #a8eb12);
+  color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+
+h1 {
+  font-family: 'Jua', cursive;
+  font-weight: 900;
+  font-size: 2.5em;
+}
+
+.quotes {
+  margin-top: 10%;
+  font-size: 30px;
+}
+
+.container {
+  margin-top: 10%;
+}
+
+#displayFood {
+  font-family: 'Jua', sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+  padding-bottom: 1rem;
+}
+
+button {
+    background-color: #4CAF50;
+    /* Green */
+
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+        
+}
+
+button:hover {
+  box-shadow: 1px 2px;
+  transition: 1s;
+}
+
+button:active {
+  transform: translateY(4px);
+}
